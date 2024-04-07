@@ -1,0 +1,26 @@
+{{!-- Estructura básica de html --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado web</title>
+    <link rel="icon" type="image/png" href="banana.png">
+    {{!-- Enlace al archivo local de estilos de Bootstrap --}}
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    {{!-- Enlace para utilizar FontAwesome --}}
+    <script src="https://kit.fontawesome.com/8f26d62695.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    {{!-- Llamado al parcial dashboard --}}
+    {{> dashboard}}
+
+    {{!-- Enlace a los scripts locales de Boostrap y Frontend --}}
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/frontend/script.js"></script>
+</body>
+
+</html>
